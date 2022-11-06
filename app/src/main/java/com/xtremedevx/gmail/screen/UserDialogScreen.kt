@@ -28,7 +28,6 @@ import com.xtremedevx.gmail.R
 import com.xtremedevx.gmail.navigation.drawer.DrawerItem
 import com.xtremedevx.gmail.navigation.drawer.MenuItem
 
-
 @Composable
 fun ShowUserDialog(
     modifier: Modifier = Modifier,
@@ -163,15 +162,10 @@ fun ShowUserDialog(
                         text = "Terms of service",
                         fontSize = 12.sp,
                         color = Color.Gray,
+                    )
 
-
-                        )
                 }
-
-
             }
         }
-
-
     }
 }

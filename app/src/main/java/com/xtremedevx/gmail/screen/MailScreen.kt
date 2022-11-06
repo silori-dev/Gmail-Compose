@@ -3,12 +3,12 @@ package com.xtremedevx.gmail.screen
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.outlined.Edit
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -37,6 +37,8 @@ fun MailScreen(
     var toolbarHeightOffset by remember {
         mutableStateOf(0f)
     }
+    val lazyListState = rememberLazyListState()
+    val extendState by remember { derivedStateOf { lazyListState.firstVisibleItemIndex < 2 } }
 
     val nestedScrollConnection = remember {
         object : NestedScrollConnection {
@@ -51,12 +53,12 @@ fun MailScreen(
     }
 
 
-
     Box(
         modifier = Modifier
             .fillMaxSize()
     ) {
         LazyColumn(
+            state = lazyListState,
             modifier = Modifier
                 .fillMaxSize()
                 .nestedScroll(nestedScrollConnection),
@@ -118,17 +120,16 @@ fun MailScreen(
                 shape = RoundedCornerShape(percent = 50)
             )
 
-
         }
-        FloatingActionButton(
-            onClick = {}, shape = RoundedCornerShape(percent = 30), modifier = Modifier
+        MailFloatingActionButton(
+            extended = { extendState },
+            onClick = {},
+            modifier = Modifier
                 .align(
                     Alignment.BottomEnd
                 )
                 .offset(x = (-10).dp, y = (-10).dp)
-        ) {
-            Icon(imageVector = Icons.Outlined.Edit, contentDescription = null)
-        }
+        )
 
     }
 }

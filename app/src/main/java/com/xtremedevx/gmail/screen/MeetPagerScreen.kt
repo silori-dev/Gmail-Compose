@@ -46,7 +46,6 @@ fun MeetPagerScreen() {
                 .weight(1f),
             pagerState = pagerState,
             activeColor = DarkBlue,
-
             )
 
     }
@@ -83,7 +82,6 @@ fun PagerScreen(meetScreenPage: MeetScreenPages) {
             modifier = Modifier.fillMaxWidth(.6f),
             textAlign = TextAlign.Center,
         )
-
 
     }
 }

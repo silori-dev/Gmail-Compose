@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Gmail</string>
+    <string name="compose">Compose</string>
 </resources>

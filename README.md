@@ -26,7 +26,6 @@ App Programmer & UI Desginer.
 
 Editor & Collaborator.
 
-## License 
 
 ## License
 ```

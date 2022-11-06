@@ -40,7 +40,6 @@ val mailsList = listOf(
         mailContent = "Congrats for clearing 1st interview round ...",
         mailDate = "21 feb",
     ),
-
     MailItem(
         profileId = R.drawable.dropbox_logo,
         senderName = "Dropbox",
@@ -69,6 +68,34 @@ val mailsList = listOf(
         mailSubject = "Final Interview round",
         mailContent = "Congrats for clearing two interview round ...",
         mailDate = "21 feb",
+    ),
+    MailItem(
+        profileId = R.drawable.dropbox_logo,
+        senderName = "Dropbox",
+        mailSubject = "3rd Interview",
+        mailContent = "Thanks for showing interest in Dropbox....",
+        mailDate = "20feb ",
+    ),
+    MailItem(
+        profileId = R.drawable.protonmail_logo,
+        senderName = "Proton Mail",
+        mailSubject = "Application Received",
+        mailContent = "Thanks for showing interest in Proton Mail",
+        mailDate = "15 feb",
+    ),
+    MailItem(
+        profileId = R.drawable.signal_logo,
+        senderName = "Signal",
+        mailSubject = "Application Received",
+        mailContent = "Thanks for showing interest in Signal",
+        mailDate = "15 feb",
+    ),
+    MailItem(
+        profileId = R.drawable.protonmail_logo,
+        senderName = "Netflix",
+        mailSubject = "Application Received",
+        mailContent = "Thanks for showing interest in Netflix",
+        mailDate = "15 feb",
     ),
     MailItem(
         profileId = R.drawable.swiggy_logo,

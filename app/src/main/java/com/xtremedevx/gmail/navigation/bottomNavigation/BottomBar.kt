@@ -1,4 +1,4 @@
-package com.xtremedevx.gmail.navigation.bottomNavigation
+    package com.xtremedevx.gmail.navigation.bottomNavigation
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.BottomNavigation
@@ -25,7 +25,6 @@ fun BottomBar(
     val currentDestination = navBackStackEntry?.destination
 
     BottomNavigation {
-
         screens.forEach { screen ->
             AddItem(
                 screen = screen,
@@ -63,10 +62,7 @@ fun RowScope.AddItem(
                 launchSingleTop = true
             }
         },
-
-
         )
-
 }
 
 
@@ -77,7 +73,49 @@ fun RowScope.AddItem(
 
 
 
+//
+//                    val permissionState =
+//                        rememberPermissionState(permission = Manifest.permission.READ_EXTERNAL_STORAGE)
+//
+//                    val lifecycleOwner = LocalLifecycleOwner.current
+//                    DisposableEffect(
+//                        key1 = lifecycleOwner,
+//                        effect = {
+//                            val observer = LifecycleEventObserver { _, event ->
+//                                if(event == Lifecycle.Event.ON_START) {
+//                                    permissionState.launchPermissionRequest()
+//                                }
+//                            }
+//                            lifecycleOwner.lifecycle.addObserver(observer)
+//                            onDispose {
+//                                lifecycleOwner.lifecycle.removeObserver(observer)
+//                            }
+//                        }
+//                    )
+//
+//                    ShowItemList()
 
+
+//
+//
+//@Composable
+//fun ShowItemList() {
+//    val context = LocalContext.current
+//    val repo = MyRepositoryImpl()
+//    val list = repo.getAllDocumentFromStorage(context)
+//
+//    LazyColumn {
+//        items(list) { item ->
+//            Column(modifier = Modifier.fillMaxWidth()) {
+//                Text(text = "File Title = ${item.fileTitle}")
+//                Text(text = "File Path = ${item.fileUri}")
+//                Text(text = "File Size ${item.size}")
+//                Spacer(modifier = Modifier.height(10.dp))
+//            }
+//        }
+//    }
+//
+//}
 
 
 
