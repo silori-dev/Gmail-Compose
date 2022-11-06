@@ -14,11 +14,11 @@ Mail	|	Meet	|	Dialog | Drawer	|
 
 
 ## 📹 Live Demo 📹
-https://user-images.githubusercontent.com/99537110/186380155-e1fa1ab1-8ce3-4f52-8fe6-1d7447d72aa4.mp4
+https://user-images.githubusercontent.com/99537110/200149528-c7115293-177d-4dab-a462-5fb551741387.mp4
 
 ## 🪶 Author(s) 🪶
 
-**Harsh Silori**, [*@XtremeDevX*](https://github.com/XtremeDevX).
+**Silori**, [*@AndroidRegiment*](https://github.com/AndroidRegiment).
 
 App Programmer & UI Desginer.
 
@@ -51,5 +51,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+
 
 
