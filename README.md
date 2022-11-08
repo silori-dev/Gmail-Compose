@@ -14,8 +14,7 @@ Mail	|	Meet	|	Dialog | Drawer	|
 
 
 ## 📹 Live Demo 📹
-https://user-images.githubusercontent.com/99537110/200149528-c7115293-177d-4dab-a462-5fb551741387.mp4
-
+https://user-images.githubusercontent.com/99537110/200489245-dd9824ea-0fdb-43a0-ae36-9e1c90abb7f3.mp4
 ## 🪶 Author(s) 🪶
 
 **Silori**, [*@AndroidRegiment*](https://github.com/AndroidRegiment).
@@ -51,6 +50,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+
+
 
 
 
